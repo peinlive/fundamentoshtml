@@ -19,20 +19,72 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="educacion.html">Educacion</a></li>
         <li><a href="experiencia.html">Experiencia</a></li>
-        <em>
+      </em>
       </ul>
       </nav>
 
       <section>
         <article>
     <h3><strong>Educacion</strong></h2>
-      <table>
+      <table border="1">
+        <thead>
         <tr>
-          <ul>
-            
-          </ul>
-        </tr>
+          <th>Año</th>
+          <th>Istitucion</th>
+          <th>¿Culmino?</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2014</td>
+            <td>SENA</td>
+            <td>Monteria-Cordoba</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>Next University</td>
+            <td>Virtual</td>
+            <td>No</td>
+          </tr>
+        </tbody>
       </table>
+<h3>Agregar educacion</h3>
+<form action="">
+  <fieldset>
+    <legend>Agregar nuevo estudio.</legend>
+  <p>
+  <label for="Año">Año </label>
+  <br>
+  <input type="number" name="cantidad" placeholder="2000"min="1980" max="2018">
+  </p>
+  <p>
+  <label for="Institucion">Institucion</label>
+  <br>
+  <input type="text" name="Institucion" placeholder="Nombre de la Institucion">
+  </p>
+  <p>
+  <label for="Lugar">Lugar</label>
+  <br>
+  <input type="text" name="Lugar" placeholder="Ciudad donde lo realizo">
+  </p>
+  <p>
+    <label for="genre">¿Culmino?</label>
+    <br>
+    <input type="radio" name="estado"> Si
+    <input type="radio" name="estado"> No
+  </p>
+<p>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Limpiar">
+</p>
+</fieldset>
+</form>
+
+
+
+
+
+
 
         </article>
       </section>
